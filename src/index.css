@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #0a0a0a;
+    color: #e5e7eb;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+@theme {
+  --color-primary: #663399;
+  --color-primary-dark: #682860;
+  --color-accent-blue: #3b82f6;
+  --color-accent-purple: #8b5cf6;
+  --color-charcoal: #0a0a0a;
+  --color-charcoal-light: #1a1a1a;
+  --color-charcoal-lighter: #2a2a2a;
+  
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+}
